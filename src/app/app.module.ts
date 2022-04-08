@@ -10,6 +10,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { FoodListComponent } from './content/food-list/food-list.component';
 import { TodayComponent } from './content/today/today.component';
 import { ChartsComponent } from './content/charts/charts.component';
+import { NgChartsModule } from 'ng2-charts'
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { ChartsComponent } from './content/charts/charts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, NgChartsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
